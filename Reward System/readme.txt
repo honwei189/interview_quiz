@@ -20,10 +20,10 @@ HOW TO TEST:
 php src/tests.php
 
 
-NOTE: This is using PHP 8 coding pattern, please use PHP 8.0 or above engine to execute it.
+NOTE: This is the coding pattern using PHP 8, please use the engine of PHP 8.0 or above to execute it.
 
-NOTE: This is using mySQL 8
+NOTE: The DB schema definition is based on mySQL 8 standard.
 
-NOTE: Please import schema.sql into your DB
+NOTE: Please import the database file -- db_schema.sql to the database before you run test
 
-NOTE: Please edit config.php, to save your DB userid, password and DB name
+NOTE: Please edit config.php and save your database user id, password, and database name before execute src/tests.php
